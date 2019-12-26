@@ -1,0 +1,23 @@
+{
+  "name": "@APP_NAME@",
+  "profile": "apex-arturmuller",
+  "type": "static",
+  "regions": ["eu-central-1"],
+  "static": {
+    "dir": "build"
+  },
+  "stages": {
+    "staging": {
+      "domain": "@APP_NAME@-staging.arturmuller.com"
+    },
+    "production": {
+      "domain": "@APP_NAME@.arturmuller.com"
+    }
+  },
+  "redirects": {
+    "/*": {
+      "location": "/",
+      "status": 200
+    }
+  }
+}

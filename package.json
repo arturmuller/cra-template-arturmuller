@@ -1,0 +1,16 @@
+{
+  "name": "cra-template-arturmuller",
+  "version": "0.0.0",
+  "description": "@arturmuller's private CRA template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arturmuller/cra-template-arturmuller.git"
+  },
+  "license": "MIT",
+  "author": "Artur Müller <me@arturmuller.com>",
+  "main": "template.json",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
