@@ -6,6 +6,9 @@
   "static": {
     "dir": "build"
   },
+  "hooks": {
+    "build": "npm run build"
+  },
   "stages": {
     "staging": {
       "domain": "@APP_NAME@-staging.arturmuller.com"

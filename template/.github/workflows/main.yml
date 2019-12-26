@@ -36,9 +36,6 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: Build
-        run: npm run build
-
       - name: Install Apex Up
         run: curl -sf https://up.apex.sh/install | BINDIR=. sh
 
